@@ -1,0 +1,67 @@
+#tabs {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activity {
+    border: 3px groove darkmagenta;
+    min-height: 300px;
+}
+
+.activity h3 {
+    animation: blinker 2.0s linear infinite alternate;  
+}
+
+@keyframes blinker {  
+    from { 
+        color:blue;
+        opacity: 1; 
+    } 
+    to { 
+        color:mediumspringgreen;
+        opacity: 0; 
+    }
+}
+
+.person {
+    min-width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid black;
+    padding: 2px;
+}
+
+.ui-tabs-vertical { 
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+}
+.ui-tabs-vertical .ui-tabs-nav { 
+    padding: .2em .1em .2em .2em; 
+    float: left; 
+    width: 6em; 
+}
+.ui-tabs-vertical .ui-tabs-nav li { 
+    clear: left; 
+    width: 100%; 
+    border-bottom-width: 1px !important; 
+    border-right-width: 0 !important; 
+    margin: 0 -1px 1px 2px; 
+}
+.ui-tabs-vertical .ui-tabs-nav li a { 
+    display:block; 
+}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { 
+    padding-bottom: 0; 
+    padding-right: 2px; 
+    border-right-width: 1px; 
+}
+.ui-tabs-vertical .ui-tabs-panel { 
+    padding-left: 20px; 
+    padding-top: 10px;
+    float: left; 
+    max-width: 75%;
+}

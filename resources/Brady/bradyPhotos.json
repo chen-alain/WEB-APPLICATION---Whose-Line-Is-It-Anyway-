@@ -1,0 +1,23 @@
+{
+    "title": "Photos of Wayne Brady",
+    "photosBasePath": "resources/Brady/",
+    "photos": [
+        {
+            "uri" : "WayneAsFish.jpg",
+            "description" : "Wayne in a game of Let's Make a Date."
+        },
+        {
+            "uri" : "WayneAsMichael.jpg",
+            "description" : "Wayne in another game of Let's Make a Date."
+        },
+        {
+            "uri" : "WayneSingingToLee.jpg",
+            "description" : "Wayne in Song Styles, with Lee the Lunch Lady. Friday, It's the best day of all."
+        },
+        {
+            "uri" : "WayneWithJeff.jpg",
+            "description" : "Wayne with Jeff, another talented performer who can sing."
+        }
+
+    ]
+}

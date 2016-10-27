@@ -1,0 +1,43 @@
+#textbox {
+    width:550px;
+    max-width: 60%;
+    border: 3px dotted black;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cyan;
+}
+
+
+#imagebox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 500px;
+    max-width: 50%;
+    height: 200px;
+}
+
+#dontmatter {
+    position: relative;
+    left: -100px;    
+    animation: move 10s ease-in-out 3s infinite alternate;
+    transform-origin: center;
+    transform: skewX(-10deg);
+    border: 10px groove chartreuse;
+}
+
+@keyframes move {
+    from {
+        left: -100px;
+        top: 0%;
+        transform: rotate(0deg) skewX(-10deg);
+        
+    }
+    to {
+        left: 100%;
+        top: 50%;
+        transform: rotate(360deg) skewX(10deg);
+    }
+}

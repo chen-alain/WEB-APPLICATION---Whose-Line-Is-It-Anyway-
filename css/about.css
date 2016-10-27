@@ -1,0 +1,10 @@
+#textbox {
+    width:600px;
+    max-width: 60%;
+    border: 3px dashed purple;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: deepskyblue;
+}

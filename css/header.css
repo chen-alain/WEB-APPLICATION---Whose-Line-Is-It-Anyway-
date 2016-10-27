@@ -1,0 +1,49 @@
+#header {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid darkblue;
+}
+
+.noUnderline {
+    text-decoration: none;
+}
+
+.banner {
+    margin: auto;
+    text-align: center;
+    display: inline;            
+    height: 100px;
+    vertical-align: middle;
+    color: blue;            
+}
+
+#menu {
+    width: inherit;
+    text-align: center;
+    background-color: aqua;
+}
+
+#menu input {
+    margin:5px;
+}
+
+@font-face {
+    font-family: comic;
+    src: url("../resources/SF-Cartoonist-Hand/SF_Cartoonist_Hand.ttf");
+}
+
+* {
+    font-family: comic, arial, sans-serif;
+}
+
+body {
+    background: #66FFFF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #33FFFF, #66CC66); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #33FFFF, #66CC66); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #33FFFF, #66CC66); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #33FFFF, #66CC66); /* Standard syntax */
+    min-height: 100vh; /* To make background color extend to bottom of webpage. */
+    margin: 0;
+}
